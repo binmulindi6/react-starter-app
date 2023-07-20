@@ -1,0 +1,10 @@
+{
+    "extends": ["react-app"],
+    "rules": {
+        "linebreak-style" : "off",
+        "react/jsx-indent" : "off",
+        // suppress errors for missing 'import React' in files
+       "react/react-in-jsx-scope": "off"
+    
+      }
+}
